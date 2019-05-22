@@ -21,7 +21,6 @@ updateCount = () => {
 }
 
   render() {
-    console.log('CounterButton');
     return (
       <button color={this.props.color} onClick={this.updateCount} >
         Count: {this.state.count}
